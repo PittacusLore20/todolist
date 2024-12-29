@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+    .card-layout {
+        width: 500px;    
+
+        .listing {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .crossover {
+                text-decoration: line-through;
+            }
+        }
+
+        .error-container {
+            display: flex;
+            justify-content: center;
+            p {
+                color: red
+            };
+        }
+    }
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+mat-card-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
